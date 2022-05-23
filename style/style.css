@@ -1,0 +1,25 @@
+.links {
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.link {
+	padding: 10px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #fff;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.link:hover {
+	transition: 200ms;
+	color: gray;
+}
